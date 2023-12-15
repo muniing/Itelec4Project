@@ -3,20 +3,9 @@ import './Login.css'
 import user_icon from '../Assests/person.png'
 import email_icon from '../Assests/email.png'
 import password_icon from '../Assests/password.png'
-import { Link, useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Login = () => {
-    const history = useHistory();
-    
-    const handleCreateAccountClick = () => {
-        console.log("Create Account Clicked");
-        history.push("/signup");
-    };
-
-    const handleExistingAccountClick = () => {
-        console.log("Existing Account Clicked");
-        history.push("/login");
-    };
 
     return (
         <div className="container">
