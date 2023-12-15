@@ -25,7 +25,11 @@ const Signup = () => {
                     <img src={password_icon} alt=""/>
                     <input type="password" placeholder="Password"/>
                 </div>
-                <div className="existing_account">Already have an account? <span>Click here!</span></div>
+                <div className="existing_account">Already have an account? 
+                <span>
+                <Link to='/login'>Click here!</Link>
+                </span>
+                </div>
                 <div className="submit_container">
                     <div className="submit">Sign Up</div>
                 </div>

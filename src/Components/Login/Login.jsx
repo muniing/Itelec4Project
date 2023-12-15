@@ -22,7 +22,12 @@ const Login = () => {
                     <img src={password_icon} alt=""/>
                     <input type="password" placeholder="Password"/>
                 </div>
-                <div className="create_account">Create Account? <span>Click here!</span></div>
+                <div className="create_account">Create Account? 
+                <span>
+                    <Link to='/signup'>Click here!</Link>
+
+                </span>
+                </div>
                 
                 <div className="submit_container">
                     <div className="submit">Login</div>
